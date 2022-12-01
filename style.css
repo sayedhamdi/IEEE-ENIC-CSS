@@ -1,0 +1,76 @@
+/*  CSS RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 20px;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/** Landing section css **/
+
+.landing {
+  background-image: url("./img/architect.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96vh; /* viewport height  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.br {
+  padding-top: 100px;
+}
+
+.br-text {
+  display: inline-block;
+  background: black;
+  padding: 5px 15px;
+  color: white;
+  font-size: 60px;
+  opacity: 0.8;
+}
+.architect-text {
+  color: white;
+  font-size: 60px;
+}
+
+.projects-section {
+  margin: 10px 40px;
+}
+.projects {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project {
+  position: relative;
+  width: 24%;
+}
+.project img {
+  width: 100%;
+}
+
+.project span {
+  position: absolute;
+  z-index: 2;
+  background: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
